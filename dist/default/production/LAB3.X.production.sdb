@@ -1,0 +1,573 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 0 0 ]
+"28 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v _configPic configPic `(v  1 e 0 0 ]
+"44
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 0 0 ]
+[v i2_DelayFor18TCY DelayFor18TCY `(v  1 e 0 0 ]
+"52
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 0 0 ]
+[v i2_DelayPORXLCD DelayPORXLCD `(v  1 e 0 0 ]
+"56
+[v _DelayXLCD DelayXLCD `(v  1 e 0 0 ]
+"60
+[v _inicializeLCD inicializeLCD `(v  1 e 0 0 ]
+"74
+[v _escreveLCD escreveLCD `(v  1 e 0 0 ]
+"84
+[v _cronoProgressivo cronoProgressivo `(v  1 e 0 0 ]
+"96
+[v _cronoRegressivo cronoRegressivo `(v  1 e 0 0 ]
+"108
+[v _interrupcao interrupcao `II(v  1 e 0 0 ]
+"198
+[v _main main `(v  1 e 0 0 ]
+"12 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/busyxlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+[v i2_BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+"19 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/openxlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 0 0 ]
+"16 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/putrxlcd.c
+[v _putrsXLCD putrsXLCD `(v  1 e 0 0 ]
+"13 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 0 0 ]
+"13 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/wcmdxlcd.c
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 0 0 ]
+[v i2_WriteCmdXLCD WriteCmdXLCD `(v  1 e 0 0 ]
+"16 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/writdata.c
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 0 0 ]
+[s S875 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"313 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f4520.h
+[s S884 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S893 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S902 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S904 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S907 . 1 `S875 1 . 1 0 `S884 1 . 1 0 `S893 1 . 1 0 `S902 1 . 1 0 `S904 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES907  1 e 1 @3969 ]
+"631
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"772
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+[s S667 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"896
+[s S672 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S677 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S679 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S682 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S685 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S688 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S693 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S698 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCP10 1 0 :1:2 
+]
+[s S701 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S704 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CCP6E 1 0 :1:6 
+]
+[s S707 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 CCP7E 1 0 :1:5 
+]
+[s S710 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP8E 1 0 :1:4 
+]
+[s S713 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S716 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S719 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PB1E 1 0 :1:6 
+]
+[s S722 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[s S725 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PB3E 1 0 :1:4 
+]
+[s S728 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 PC1E 1 0 :1:5 
+]
+[s S731 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+]
+[s S734 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 PC3E 1 0 :1:3 
+]
+[s S737 . 1 `uc 1 PD2 1 0 :1:0 
+]
+[s S739 . 1 `uc 1 RDE 1 0 :1:0 
+]
+[s S741 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RE4 1 0 :1:4 
+]
+[s S744 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RE5 1 0 :1:5 
+]
+[s S747 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RE6 1 0 :1:6 
+]
+[s S750 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RE7 1 0 :1:7 
+]
+[s S753 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+]
+[u S756 . 1 `S667 1 . 1 0 `S672 1 . 1 0 `S677 1 . 1 0 `S679 1 . 1 0 `S682 1 . 1 0 `S685 1 . 1 0 `S688 1 . 1 0 `S693 1 . 1 0 `S698 1 . 1 0 `S701 1 . 1 0 `S704 1 . 1 0 `S707 1 . 1 0 `S710 1 . 1 0 `S713 1 . 1 0 `S716 1 . 1 0 `S719 1 . 1 0 `S722 1 . 1 0 `S725 1 . 1 0 `S728 1 . 1 0 `S731 1 . 1 0 `S734 1 . 1 0 `S737 1 . 1 0 `S739 1 . 1 0 `S741 1 . 1 0 `S744 1 . 1 0 `S747 1 . 1 0 `S750 1 . 1 0 `S753 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES756  1 e 1 @3972 ]
+[s S70 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1412
+[s S79 . 1 `uc 1 LC0 1 0 :1:0 
+]
+[s S81 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+]
+[s S84 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LC2 1 0 :1:2 
+]
+[s S87 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LC3 1 0 :1:3 
+]
+[s S90 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LC4 1 0 :1:4 
+]
+[s S93 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LC5 1 0 :1:5 
+]
+[s S96 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LC6 1 0 :1:6 
+]
+[s S99 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S102 . 1 `S70 1 . 1 0 `S79 1 . 1 0 `S81 1 . 1 0 `S84 1 . 1 0 `S87 1 . 1 0 `S90 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 ]
+[v _LATCbits LATCbits `VES102  1 e 1 @3979 ]
+"1951
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S30 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2204
+[s S39 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S48 . 1 `S30 1 . 1 0 `S39 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES48  1 e 1 @3988 ]
+"2393
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2614
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6450
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6538
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S609 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"6816
+[s S618 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S627 . 1 `S609 1 . 1 0 `S618 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES627  1 e 1 @4080 ]
+[s S487 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6905
+[s S490 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S499 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S502 . 1 `S487 1 . 1 0 `S490 1 . 1 0 `S499 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES502  1 e 1 @4081 ]
+[s S522 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7001
+[s S531 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S540 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S549 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S558 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S562 . 1 `S522 1 . 1 0 `S531 1 . 1 0 `S540 1 . 1 0 `S549 1 . 1 0 `S558 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES562  1 e 1 @4082 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"16 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v _contTempo contTempo `i  1 e 2 0 ]
+"17
+[v _seg seg `i  1 e 2 0 ]
+"18
+[v _min min `i  1 e 2 0 ]
+"19
+[v _pressRB0 pressRB0 `i  1 e 2 0 ]
+"20
+[v _pressRB1 pressRB1 `i  1 e 2 0 ]
+"21
+[v _cronoProg cronoProg `i  1 e 2 0 ]
+"22
+[v _cronoReg cronoReg `i  1 e 2 0 ]
+"23
+[v _contBlink contBlink `i  1 e 2 0 ]
+"24
+[v _segReg segReg `i  1 e 2 0 ]
+"25
+[v _minReg minReg `i  1 e 2 0 ]
+"26
+[v _texto texto `[5]uc  1 e 5 0 ]
+"198
+[v _main main `(v  1 e 0 0 ]
+{
+"210
+} 0
+"60
+[v _inicializeLCD inicializeLCD `(v  1 e 0 0 ]
+{
+"72
+} 0
+"19 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/openxlcd.c
+[v _OpenXLCD OpenXLCD `(v  1 e 0 0 ]
+{
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 wreg ]
+"31
+[v OpenXLCD@lcdtype lcdtype `uc  1 a 1 53 ]
+"80
+} 0
+"13 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/wcmdxlcd.c
+[v _WriteCmdXLCD WriteCmdXLCD `(v  1 e 0 0 ]
+{
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"32
+[v WriteCmdXLCD@cmd cmd `uc  1 a 1 49 ]
+"60
+} 0
+"13 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/setddram.c
+[v _SetDDRamAddr SetDDRamAddr `(v  1 e 0 0 ]
+{
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 wreg ]
+"32
+[v SetDDRamAddr@DDaddr DDaddr `uc  1 a 1 52 ]
+"60
+} 0
+"44 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v _DelayFor18TCY DelayFor18TCY `(v  1 e 0 0 ]
+{
+"45
+[v DelayFor18TCY@i i `i  1 a 2 47 ]
+"49
+} 0
+"52
+[v _DelayPORXLCD DelayPORXLCD `(v  1 e 0 0 ]
+{
+"54
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\d10ktcyx.c
+[v _Delay10KTCYx Delay10KTCYx `(v  1 e 0 0 ]
+{
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 wreg ]
+[v Delay10KTCYx@unit unit `uc  1 a 1 48 ]
+"13
+} 0
+"12 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/busyxlcd.c
+[v _BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+{
+"18
+} 0
+"56 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v _DelayXLCD DelayXLCD `(v  1 e 0 0 ]
+{
+"58
+} 0
+"28
+[v _configPic configPic `(v  1 e 0 0 ]
+{
+"42
+} 0
+"108
+[v _interrupcao interrupcao `II(v  1 e 0 0 ]
+{
+"196
+} 0
+"96
+[v _cronoRegressivo cronoRegressivo `(v  1 e 0 0 ]
+{
+"106
+} 0
+"84
+[v _cronoProgressivo cronoProgressivo `(v  1 e 0 0 ]
+{
+"94
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"501
+[v sprintf@width width `i  1 a 2 30 ]
+"528
+[v sprintf@val val `ui  1 a 2 27 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 24 ]
+"499
+[v sprintf@c c `c  1 a 1 32 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 29 ]
+"506
+[v sprintf@prec prec `c  1 a 1 26 ]
+"492
+[v sprintf@sp sp `*.39uc  1 p 2 12 ]
+[v sprintf@f f `*.25Cuc  1 p 2 14 ]
+"1541
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"74 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v _escreveLCD escreveLCD `(v  1 e 0 0 ]
+{
+[v escreveLCD@primeiraLinha primeiraLinha `*.25uc  1 p 2 5 ]
+[v escreveLCD@segundaLinha segundaLinha `*.39uc  1 p 2 7 ]
+"82
+} 0
+"13 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/wcmdxlcd.c
+[v i2_WriteCmdXLCD WriteCmdXLCD `(v  1 e 0 0 ]
+{
+[v i2WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+[v i2WriteCmdXLCD@cmd cmd `uc  1 a 1 wreg ]
+"32
+[v i2WriteCmdXLCD@cmd cmd `uc  1 a 1 2 ]
+"60
+} 0
+"52 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v i2_DelayPORXLCD DelayPORXLCD `(v  1 e 0 0 ]
+{
+"54
+} 0
+"16 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/putrxlcd.c
+[v _putrsXLCD putrsXLCD `(v  1 e 0 0 ]
+{
+[v putrsXLCD@buffer buffer `*.35Cuc  1 p 2 3 ]
+"25
+} 0
+"12 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/busyxlcd.c
+[v i2_BusyXLCD BusyXLCD `(uc  1 e 1 0 ]
+{
+"18
+} 0
+"16 C:\Users\Debora\Desktop\LAB3.X\plib/XLCD/writdata.c
+[v _WriteDataXLCD WriteDataXLCD `(v  1 e 0 0 ]
+{
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+[v WriteDataXLCD@data data `uc  1 a 1 wreg ]
+"35
+[v WriteDataXLCD@data data `uc  1 a 1 2 ]
+"63
+} 0
+"44 C:\Users\Debora\Desktop\LAB3.X\main.c
+[v i2_DelayFor18TCY DelayFor18TCY `(v  1 e 0 0 ]
+{
+[v i2DelayFor18TCY@i DelayFor18TCY `i  1 a 2 0 ]
+"49
+} 0
